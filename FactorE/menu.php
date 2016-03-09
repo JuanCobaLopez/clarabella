@@ -1,0 +1,27 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+<p>Bienvenido nuestro test de aptitudes primarias P.M.A., que consiste en 5 pruebas a realizarse, con el fin de proporcionarle las areas en las cuales tiene mas aptitudes y recomendarle las carreras que podrían ser mas adecuadas para Ud..</p>
+<p>Recibirá instrucciones sobre cada prueba al comenzarla, seleccione una prueba por favor:</p>
+<?php
+echo '<ul>
+  <li>Prueba Factor V</li>';
+if($_SESSION['paginaE']=='Finalizado'){
+echo '<li>FACTOR E "TERMINADO"</li>';
+}else{echo '<li><a href="factorEinstrucciones.php">Prueba Factor E</a></li>';}
+echo '<li>Prueba Factor R</li>
+  <li>Prueba Factor N</li>
+  <li>Prueba Factor F</li>
+</ul>';
+?>
+¡Gracias!
+</body>
+</html>

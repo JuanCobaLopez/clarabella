@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+<h1>PRUEBA DE FACTOR E</h1>
+<p>En esta prueba se evaluará su capacidad en factor E.</p>
+<h2>INSTRUCCIONES:</h2>
+<p>Mire la fila de figuras de debajo. La primera figura es como una F. Todas las restantes figuras son EXACTAMENTE IGUALES a la primera, pero han sido colocadas en diferentes posiciones Sólo falta ponerlas derechas para ver que son EXACTAMENTE IGUALES a la primera. Obsérvelo.</p>
+<p><img src="img/ej1.jpg" width="1062" height="103" /></p>
+<p>Ahora mire la fila siguiente de figuras. La primera es semejante a una F. Pero ninguna de las restantes es IGUAL a F, aun en el caso de que las pusiera derechas. Están hechas todas al revés. Lo que tiene que hacer es imaginárselo.</p>
+<p><img src="img/ej2.jpg" width="1020" height="97" /></p>
+<p>Algunas de las figuras que siguen son IGUALES a la primera. otras están al revés.</p>
+<p><img src="img/ej3.jpg" width="964" height="87" /></p>
+<p>En la imagen siguiente algunas figuras son IGUALES a la primera figura. Por eso estan marcadas con el boton de seleccion arriba de cada una.</p>
+<p><img src="img/ej4.jpg" width="961" height="82" /></p>
+<p>En la fila que sigue, fijese bien en las figuras que son IGUALES a la primera. ¿Cuáles son? Deberian marcarse. Haga mentalmente este ejemplo.</p>
+<p><img src="img/ej5.jpg" width="958" height="83" /></p>
+<p>Las que deberia de haber marcado son la primera y la penultima.</p>
+<p>Haga lo mismo con las filas de abajo. Resuelva mentalmente los ejercicios.</p>
+<p><img src="img/ej6.jpg" width="969" height="80" /></p>
+<p>En la primera fila fila habría que seleccionar la A, D y F. En la segunda fila, las soluciones son C y F.</p>
+<p>Recuerde que en cada fila puede haber un número cualquiera de figuras IGUALES a la primera. Asegúrese de que ha comprendido bien la manera de hacer esta prueba. Cuando el examinador dé la señal, tendrá usted que resolver otras semejantes. Trabaje deprisa, pero procurando no equivocarse. Tendrá CINCO MINUTOS para toda esta prueba. S no termina no se preocupe, es lo corriente. </p>
+<h3>ESPERE. NO CONTINUE HASTA QUE SE LO INDIQUEN.</h3>
+<form id="form1" name="form1" method="post" action="factorEtest.php?v=1">
+  <input type="submit" name="SGTE" id="SGTE" value="Siguiente" />
+</form>
+<p>&nbsp;</p>
+</body>
+</html>
